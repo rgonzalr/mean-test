@@ -10,7 +10,7 @@ var passport = require('passport'),
 
 // Create the Twitter strategy configuration method
 module.exports = function() {
-	// Use the Passport's Twitter strategy 
+	// Use the Passport's Twitter strategy
 	passport.use(new TwitterStrategy({
 			consumerKey: config.twitter.clientID,
 			consumerSecret: config.twitter.clientSecret,
@@ -24,6 +24,8 @@ module.exports = function() {
 			providerData.tokenSecret = tokenSecret;
 
 			// Create the user OAuth profile
+			console.log("Twitter profile");
+			console.log(profile);
 			var providerUserProfile = {
 				fullName: profile.displayName,
 				username: profile.username,
