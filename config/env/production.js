@@ -6,8 +6,8 @@ module.exports = {
 	db: process.env.MONGODB_URI,
 	sessionSecret: 'productionSessionSecret',
 	facebook: {
-		clientID: '1531839423789714',
-		clientSecret: '3932a921f4cb45f0f36e1982afb57047',
+		clientID: '218914405143641',
+		clientSecret: '350273c9c3f7d4284ce3e80833571d33',
 		callbackURL: 'https://still-forest-70102.herokuapp.com/oauth/facebook/callback'
 	},
 	twitter: {
@@ -16,8 +16,8 @@ module.exports = {
 		callbackURL: 'http://localhost:3000/oauth/twitter/callback'
 	},
 	google: {
-		clientID: '874411420578-cpdbmos54rtje3lp27497p0d412qbmnn.apps.googleusercontent.com',
-		clientSecret: 'Wwo_mWGfWWHHcW5brfvw-ySU',
+		clientID: '558362708999-q7ojpb4te8ldft7p8hv7gm1leakjksk5.apps.googleusercontent.com',
+		clientSecret: 'cCO-UUv8W-6Ov5jinBU5J3sH',
 		callbackURL: 'https://still-forest-70102.herokuapp.com/oauth/google/callback'
 	}
 };
