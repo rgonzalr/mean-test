@@ -10,7 +10,7 @@ var passport = require('passport'),
 
 // Create the Facebook strategy configuration method
 module.exports = function() {
-	// Use the Passport's Facebook strategy 
+	// Use the Passport's Facebook strategy
 	passport.use(new FacebookStrategy({
 			clientID: config.facebook.clientID,
 			clientSecret: config.facebook.clientSecret,
@@ -24,6 +24,8 @@ module.exports = function() {
 			providerData.refreshToken = refreshToken;
 
 			// Create the user OAuth profile
+			console.log("FB profile");
+			console.log(profile);
 			var providerUserProfile = {
 				firstName: profile.name.givenName,
 				lastName: profile.name.familyName,
