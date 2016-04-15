@@ -8,9 +8,7 @@ var	config = require('./config'),
 // Define the Mongoose configuration method
 module.exports = function() {
 	// Use Mongoose to connect to MongoDB
-	var urlMongo = process.env.MONGODB_URI || config.db;
-	console.log(urlMongo);
-	var db = mongoose.connect(urlMongo);
+	var db = mongoose.connect(config.db);
 
 	// Load the 'User' model
 	require('../app/models/user.server.model');
