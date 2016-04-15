@@ -6,9 +6,9 @@ module.exports = {
 	db: process.env.MONGODB_URI,
 	sessionSecret: 'productionSessionSecret',
 	facebook: {
-		clientID: 'Facebook Application ID',
-		clientSecret: 'Facebook Application Secret',
-		callbackURL: 'http://localhost:3000/oauth/facebook/callback'
+		clientID: '1531839423789714',
+		clientSecret: '3932a921f4cb45f0f36e1982afb57047',
+		callbackURL: 'https://still-forest-70102.herokuapp.com/oauth/facebook/callback'
 	},
 	twitter: {
 		clientID: 'Twitter Application ID',
