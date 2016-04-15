@@ -11,9 +11,9 @@ module.exports = {
 		callbackURL: 'https://still-forest-70102.herokuapp.com/oauth/facebook/callback'
 	},
 	twitter: {
-		clientID: 'Twitter Application ID',
-		clientSecret: 'Twitter Application Secret',
-		callbackURL: 'http://localhost:3000/oauth/twitter/callback'
+		clientID: 'FIwCJqhTNPaDmg1MV0vgdGytF',
+		clientSecret: 'eLLGWsZk9aBNEQvaNkqHLd45gXbqG5KZ3TdZFFVrksvpVd4OOy',
+		callbackURL: 'https://still-forest-70102.herokuapp.com/oauth/twitter/callback'
 	},
 	google: {
 		clientID: '558362708999-q7ojpb4te8ldft7p8hv7gm1leakjksk5.apps.googleusercontent.com',
