@@ -17,7 +17,7 @@ module.exports = {
 	},
 	google: {
 		clientID: '558362708999-q7ojpb4te8ldft7p8hv7gm1leakjksk5.apps.googleusercontent.com',
-		clientSecret: 'cCO-UUv8W-6Ov5jinBU5J3sH',
+		clientSecret: '0Zj0Y2fJL8ykL9FeuDZphCQn',
 		callbackURL: 'https://still-forest-70102.herokuapp.com/oauth/google/callback'
 	}
 };
