@@ -20,11 +20,14 @@ var app = express();
 // Configure the Passport middleware
 var passport = passport();
 
-// Use the Express application instance to listen to the '3000' port
-app.listen(3000);
+// Use the Express application instance to listen to the '5000' port
+app.set('port', (process.env.PORT || 5000));
+app.listen(app.get('port'), function() {
+	// Log the server status to the console
+  console.log('Node app is running on port', app.get('port'));
+});
 
-// Log the server status to the console
-console.log('Server running at http://localhost:3000/');
+// console.log('Server running at http://localhost:3000/');
 
 // Use the module.exports property to expose our Express application instance for external usage
 module.exports = app;
