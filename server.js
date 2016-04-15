@@ -2,7 +2,9 @@
 'use strict';
 
 // Set the 'NODE_ENV' variable
+console.log(process.env.NODE_ENV);
 process.env.NODE_ENV = process.env.NODE_ENV || 'development';
+console.log(process.env.NODE_ENV);
 
 // Load the module dependencies
 var mongoose = require('./config/mongoose'),
