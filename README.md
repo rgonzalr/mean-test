@@ -17,3 +17,6 @@ heroku ps
 
 # para iniciar el server en local
 heroku local web
+
+# muestra variables del sistema
+heroku config
